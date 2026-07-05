@@ -1,0 +1,277 @@
+{
+  "@@locale": "en",
+
+  "appTitle": "Dayly",
+  "appTagline": "Your life, one second at a time.",
+
+  "onboardingSkip": "Skip",
+  "onboardingNext": "Next",
+  "onboardingGetStarted": "Get started",
+  "onboardingSwipe": "Swipe to explore",
+  "onboardingWelcomeTitle": "Welcome to Dayly",
+  "onboardingWelcomeBody": "A warm, one-second ritual that turns ordinary days into a film you can actually watch.",
+  "onboardingRecordTitle": "Capture one honest second",
+  "onboardingRecordBody": "Open Today, hit record, and save a single real moment — no editing, no pressure.",
+  "onboardingCalendarTitle": "Browse your calendar",
+  "onboardingCalendarBody": "Tap any day to replay clips, leave a note, and watch your streak grow.",
+  "onboardingRemindersTitle": "Stay in rhythm",
+  "onboardingRemindersBody": "Turn on daily reminders in Settings so you never forget your second.",
+
+  "tabNavigationLabel": "Main navigation",
+  "tabCalendar": "Calendar",
+  "tabStats": "Stats",
+  "tabToday": "Today",
+  "tabCompile": "Compile",
+  "tabSettings": "Settings",
+
+  "diaryTitle": "Dayly",
+  "diaryRecentSection": "Recent",
+  "diaryStreak": "Streak: {count, plural, =0{no days yet} =1{1 day} other{{count} days}} 🔥",
+  "@diaryStreak": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "diaryTodayTile": "today",
+  "diaryEmpty": "No moments yet. Record your first second.",
+  "diaryDayRecorded": "Recorded",
+  "diaryDayNotRecorded": "No recording",
+  "diaryDayNotRecordedHint": "You haven't captured a second for this day yet.",
+  "diaryDayClipCount": "{count, plural, =1{1 recording} other{{count} recordings}}",
+  "@diaryDayClipCount": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "diaryTapToPlay": "Tap to play",
+  "diaryRecordedAt": "Recorded at {time} · {seconds}s",
+  "@diaryRecordedAt": {
+    "placeholders": {
+      "time": { "type": "String" },
+      "seconds": { "type": "int" }
+    }
+  },
+
+  "todayTitle": "Today",
+  "todayRecordedTitle": "Today's second is saved",
+  "todayRecordedBody": "You're set for today. Come back tomorrow to keep the rhythm going.",
+  "todayUnrecordedTitle": "Record today's second",
+  "todayUnrecordedBody": "Capture one honest second before the day slips by.",
+  "todayClipSummary": "Recorded at {time} · {seconds}s",
+  "@todayClipSummary": {
+    "placeholders": {
+      "time": { "type": "String" },
+      "seconds": { "type": "int" }
+    }
+  },
+  "todayRecordCta": "Record today",
+  "todayRecordAgainCta": "Record another second",
+  "dayNoteTitle": "Leave a note for today",
+  "dayNoteHint": "A short line about how the day felt — visible on your calendar.",
+  "dayNotePlaceholder": "What made today worth remembering?",
+  "dayNoteLabel": "Day note",
+
+  "statsTitle": "Stats & videos",
+  "statsClipsLabel": "Clips",
+  "statsDurationLabel": "Footage",
+  "statsStreakLabel": "Streak",
+  "statsClipCount": "{count, plural, =0{No clips} =1{1 clip} other{{count} clips}}",
+  "@statsClipCount": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "statsDuration": "{seconds, plural, =0{0s} =1{1s} other{{seconds}s}}",
+  "@statsDuration": {
+    "placeholders": { "seconds": { "type": "int" } }
+  },
+  "statsRecentVideos": "Recent videos",
+  "statsEmpty": "Record a few seconds and your videos will appear here.",
+
+  "recordTitle": "Record your day",
+  "recordHold": "hold to record",
+  "recordHint": "{min}s min · {max}s max",
+  "@recordHint": {
+    "placeholders": { "min": { "type": "int" }, "max": { "type": "int" } }
+  },
+  "recordDeviceOnly": "Recording uses the device camera and is available on Android.",
+  "recordPermissionDenied": "Camera and microphone access is needed to record.",
+  "recordGrantPermission": "Grant access",
+  "recordTooShort": "Hold a little longer — {min}s minimum.",
+  "@recordTooShort": {
+    "placeholders": { "min": { "type": "int" } }
+  },
+  "recordCameraError": "Couldn't start the camera.",
+
+  "previewTitle": "Your second",
+  "previewSaved": "Saved to your diary.",
+
+  "compileFailed": "Compile failed. Please try again.",
+  "compilePercent": "Merging… {percent}%",
+  "@compilePercent": {
+    "placeholders": { "percent": { "type": "int" } }
+  },
+
+  "compileTitle": "Compile your diary",
+  "compileDateRange": "Date range",
+  "compileClips": "{count, plural, =0{No clips} =1{1 clip} other{{count} clips}} · ~{seconds}s",
+  "@compileClips": {
+    "placeholders": { "count": { "type": "int" }, "seconds": { "type": "int" } }
+  },
+  "compileButton": "Compile video",
+  "compileMerging": "Merging clip {current} of {total}…",
+  "@compileMerging": {
+    "placeholders": { "current": { "type": "int" }, "total": { "type": "int" } }
+  },
+  "compileNoClips": "No clips in range",
+
+  "playerShare": "Share",
+  "playerSave": "Save",
+  "playerSaved": "Saved to gallery.",
+  "playerSaveFailed": "Couldn't save to gallery.",
+  "playerShareUnavailable": "Sharing isn't available yet.",
+  "playerEmpty": "Compile a film to watch it here.",
+
+  "settingsTitle": "Settings",
+  "settingsSectionPersonal": "Personalization",
+  "settingsSectionNotifications": "Notifications",
+  "settingsSectionRecording": "Recording",
+  "settingsSectionAbout": "About",
+  "settingsProfileStats": "{clips, plural, =0{No clips yet} =1{1 clip} other{{clips} clips}} · {streak, plural, =0{no streak} =1{1-day streak} other{{streak}-day streak}}",
+  "@settingsProfileStats": {
+    "placeholders": {
+      "clips": { "type": "int" },
+      "streak": { "type": "int" }
+    }
+  },
+  "settingsReminderOff": "Off",
+  "settingsCustomColorsUnlocked": "Unlocked",
+  "settingsFooter": "Dayly — your life, one second at a time.",
+  "settingsAppearance": "Appearance",
+  "settingsLanguage": "Language",
+  "settingsTheme": "Theme",
+  "settingsThemeSystem": "System",
+  "settingsThemeLight": "Light",
+  "settingsThemeDark": "Dark",
+  "settingsNavigationBarStyle": "Crystal style",
+  "settingsNavigationBarStyleHint": "Fine-tune the Crystal tab bar look. Only applies when Crystal is selected.",
+  "settingsNavigationBarType": "Navigation bar",
+  "settingsNavigationBarTypeHint": "Choose Crystal or the curved bar with a floating center button.",
+  "settingsNavTypeCrystal": "Crystal",
+  "settingsNavTypeCurved": "Curved",
+  "settingsNavigationBarPreview": "Preview",
+  "settingsNavigationBarPreviewHint": "Tap icons to try the bar before leaving settings.",
+  "settingsNavStyleBlur": "Blur navigation bar",
+  "settingsNavStyleFrosted": "Frosted navigation bar",
+  "settingsNavStyleFloating": "Floating navigation bar",
+  "settingsNavStyleRounded": "Rounded navigation bar",
+  "settingsNavStyleModern": "Modern navigation bar",
+  "settingsUiLibrary": "UI library",
+  "settingsUiLibraryHint": "Swap the component library live — for testing design systems.",
+  "settingsReminders": "Reminders",
+  "settingsDailyReminder": "Daily reminder",
+  "settingsReminderTime": "Reminder time",
+  "settingsReminderCustom": "Custom",
+  "settingsReminderPickTime": "Pick a reminder time",
+  "settingsReminderHour": "Hour",
+  "settingsReminderMinute": "Minute",
+  "settingsCapture": "Capture",
+  "settingsDefaultDuration": "Default clip length",
+  "settingsSaveToGallery": "Save compiled video to gallery",
+  "settingsSeconds": "{count}s",
+  "@settingsSeconds": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "settingsAbout": "About",
+  "settingsConnectWithDev": "Connect with Dev",
+  "settingsConnectWithDevHint": "GitHub, Instagram, Telegram & email",
+  "settingsConnectWithDevIntro": "Say hello — feedback, ideas, and bug reports are always welcome.",
+  "settingsPrivacy": "Privacy",
+  "settingsPrivacyHint": "How Dayly handles your data on this device",
+  "settingsPrivacyIntroTitle": "Your diary stays yours",
+  "settingsPrivacyIntroBody": "Dayly is a personal video diary built for privacy first. There is no account, no cloud sync, and no advertising. Everything you record lives on your phone unless you choose to export it.",
+  "settingsPrivacyDataTitle": "What we store",
+  "settingsPrivacyDataBody": "Your video clips, thumbnails, compiled films, day notes, and app preferences are saved locally in the app’s private storage. Custom background photos you pick are copied into the app documents folder. Nothing is uploaded to our servers — we do not operate any.",
+  "settingsPrivacyPermissionsTitle": "Permissions",
+  "settingsPrivacyPermissionsBody": "Camera and microphone access are requested only when you record a clip. Storage permission is used if you enable saving compiled videos to your gallery. Notifications are optional and only used for your daily reminder. Photo library access is requested only when you choose a custom background image.",
+  "settingsPrivacyThirdPartyTitle": "Third-party libraries",
+  "settingsPrivacyThirdPartyBody": "Dayly uses open-source packages (Flutter, ffmpeg, and others) that run entirely on your device. They do not receive your diary content. See Open source & thanks in Settings for the full list.",
+  "settingsPrivacyYourControlTitle": "Your control",
+  "settingsPrivacyYourControlBody": "You can delete individual clips, wipe all recordings, or reset every setting from Settings at any time. Uninstalling the app removes all locally stored diary data from your device.",
+  "settingsPrivacyFooter": "Last updated: July 2026 · Dayly v1.0",
+  "settingsAcknowledgements": "Open source & thanks",
+  "settingsAcknowledgementsHint": "Stack, dependencies, and gratitude",
+  "settingsAcknowledgementsStackTitle": "Built with open source",
+  "settingsAcknowledgementsIntro": "Dayly is made with Flutter and a wonderful ecosystem of community packages. We are grateful to every author and maintainer below.",
+  "settingsAcknowledgementsVersion": "Dayly {version} (build {build})",
+  "@settingsAcknowledgementsVersion": {
+    "placeholders": {
+      "version": { "type": "String" },
+      "build": { "type": "String" }
+    }
+  },
+  "settingsAcknowledgementsThanks": "Thank you to the open-source community — Dayly would not exist without you.",
+  "settingsAckCategoryFramework": "Framework",
+  "settingsAckCategoryUi": "UI & typography",
+  "settingsAckCategoryState": "State & navigation",
+  "settingsAckCategoryMedia": "Video & media",
+  "settingsAckCategoryStorage": "Storage & export",
+  "settingsAckCategoryNotifications": "Notifications",
+  "settingsAckCategoryUtilities": "Utilities",
+  "settingsCustomColors": "Custom colors",
+  "settingsCustomColorsHint": "Unlocked easter egg — tune accent, colors, and a photo background.",
+  "settingsCustomColorsLightHint": "Editing light theme colors. Switch to dark theme to customize dark colors separately.",
+  "settingsCustomColorsDarkHint": "Editing dark theme colors. Switch to light theme to customize light colors separately.",
+  "settingsAccentColor": "Accent",
+  "settingsBackgroundColor": "Background",
+  "settingsBackgroundImage": "Background photo",
+  "settingsBackgroundImageHint": "Pick a photo for this theme. A soft tint keeps text readable.",
+  "settingsChooseBackgroundImage": "Choose photo",
+  "settingsRemoveBackgroundImage": "Remove photo",
+  "settingsAppFont": "App font",
+  "settingsAppFontHint": "Persian uses Vazirmatn automatically. Override the font for all languages here.",
+  "settingsFontAuto": "Auto",
+  "settingsFontClassic": "Classic",
+  "settingsFontVazir": "Vazirmatn (Persian)",
+  "settingsFontPoppins": "Poppins",
+  "settingsFontNunito": "Nunito",
+  "settingsFontLora": "Lora",
+  "settingsFontSpaceGrotesk": "Space Grotesk",
+  "settingsBoxColor": "Box",
+  "settingsResetColors": "Reset to defaults",
+  "settingsSectionReset": "Reset",
+  "settingsResetAll": "Reset all settings",
+  "settingsResetAllHint": "Restore every preference to its factory default.",
+  "settingsResetAllDetails": "This resets theme, language, navigation bar style, UI library, reminders, capture options, and custom colors. Your recorded clips are not deleted.",
+  "settingsResetAllButton": "Reset all settings",
+  "settingsResetClips": "Delete all clips",
+  "settingsResetClipsHint": "Permanently remove every recorded second from this device.",
+  "settingsResetClipsDetails": "{count, plural, =0{No clips to delete.} =1{You have 1 clip stored on this device.} other{You have {count} clips stored on this device.}}",
+  "@settingsResetClipsDetails": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "settingsResetClipsConfirmTitle": "Delete all clips?",
+  "settingsResetClipsConfirmBody": "This cannot be undone. Every recorded clip, thumbnail, and compiled video will be permanently removed.",
+  "settingsResetClipsButton": "Delete all clips",
+
+  "aboutDevTitle": "About the developer",
+  "aboutDevSubtitle": "Who built Dayly",
+  "aboutDevName": "Danix",
+  "aboutDevRole": "Developer & designer",
+  "aboutDevBio": "Dayly started as a small experiment: what if you could hold an entire year in a few minutes of film? I built this app to make that ritual feel warm, fast, and a little bit magical.",
+  "aboutDevStackTitle": "Built with",
+  "aboutDevStackBody": "Flutter · Riverpod · on-device camera & ffmpeg pipeline · a lot of coffee.",
+  "aboutDevVersion": "Version {version}",
+  "@aboutDevVersion": {
+    "placeholders": { "version": { "type": "String" } }
+  },
+  "aboutDevVersionBuild": "Version {version} ({build})",
+  "@aboutDevVersionBuild": {
+    "placeholders": {
+      "version": { "type": "String" },
+      "build": { "type": "String" }
+    }
+  },
+  "aboutDevEasterEggUnlocked": "You found it! Custom colors and photo backgrounds are now unlocked.",
+
+  "commonSave": "Save",
+  "commonRetake": "Retake",
+  "commonCancel": "Cancel",
+  "commonDelete": "Delete",
+  "commonBack": "Back",
+  "commonRecord": "Record"
+}

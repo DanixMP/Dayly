@@ -1,0 +1,271 @@
+{
+  "@@locale": "fa",
+
+  "appTitle": "Dayly",
+  "appTagline": "زندگی‌ات، یک ثانیه یک بار.",
+
+  "onboardingSkip": "رد کردن",
+  "onboardingNext": "بعدی",
+  "onboardingGetStarted": "شروع کنید",
+  "onboardingSwipe": "برای کشف بکشید",
+  "onboardingWelcomeTitle": "به Dayly خوش آمدید",
+  "onboardingWelcomeBody": "یک مراسم گرمِ یک‌ثانیه‌ای که روزهای عادی را به فیلمی تبدیل می‌کند که واقعاً می‌توانی تماشا کنی.",
+  "onboardingRecordTitle": "یک ثانیهٔ صادقانه ثبت کن",
+  "onboardingRecordBody": "امروز را باز کن، ضبط را بزن و یک لحظهٔ واقعی ذخیره کن — بدون ویرایش، بدون فشار.",
+  "onboardingCalendarTitle": "تقویمت را مرور کن",
+  "onboardingCalendarBody": "روی هر روز بزن تا کلیپ‌ها را پخش کنی، یادداشت بگذاری و پیوستگی‌ات را ببینی.",
+  "onboardingRemindersTitle": "در ریتم بمان",
+  "onboardingRemindersBody": "یادآورهای روزانه را در تنظیمات فعال کن تا ثانیه‌ات را فراموش نکنی.",
+
+  "tabNavigationLabel": "ناوبری اصلی",
+  "tabCalendar": "تقویم",
+  "tabStats": "آمار",
+  "tabToday": "امروز",
+  "tabCompile": "ترکیب",
+  "tabSettings": "تنظیمات",
+
+  "diaryTitle": "Dayly",
+  "diaryRecentSection": "اخیر",
+  "diaryStreak": "پیوستگی: {count, plural, =0{هنوز روزی نیست} =1{1 روز} other{{count} روز}} 🔥",
+  "@diaryStreak": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "diaryTodayTile": "امروز",
+  "diaryEmpty": "هنوز لحظه‌ای نداری. اولین ثانیه‌ات را ضبط کن.",
+  "diaryDayRecorded": "ضبط شده",
+  "diaryDayNotRecorded": "ضبط نشده",
+  "diaryDayNotRecordedHint": "هنوز ثانیه‌ای برای این روز ثبت نکرده‌ای.",
+  "diaryDayClipCount": "{count, plural, =1{1 ضبط} other{{count} ضبط}}",
+  "@diaryDayClipCount": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "diaryTapToPlay": "برای پخش بزن",
+  "diaryRecordedAt": "ضبط شده در {time} · {seconds}ث",
+  "@diaryRecordedAt": {
+    "placeholders": {
+      "time": { "type": "String" },
+      "seconds": { "type": "int" }
+    }
+  },
+
+  "todayTitle": "امروز",
+  "todayRecordedTitle": "ثانیهٔ امروز ذخیره شد",
+  "todayRecordedBody": "برای امروز آماده‌ای. فردا برگرد تا ریتم را ادامه دهی.",
+  "todayUnrecordedTitle": "ثانیهٔ امروز را ضبط کن",
+  "todayUnrecordedBody": "یک ثانیهٔ صادقانه ثبت کن قبل از اینکه روز بگذرد.",
+  "todayClipSummary": "ضبط شده در {time} · {seconds}ث",
+  "@todayClipSummary": {
+    "placeholders": {
+      "time": { "type": "String" },
+      "seconds": { "type": "int" }
+    }
+  },
+  "todayRecordCta": "امروز را ضبط کن",
+  "todayRecordAgainCta": "ثانیهٔ دیگری ضبط کن",
+  "dayNoteTitle": "یادداشتی برای امروز بگذار",
+  "dayNoteHint": "یک خط کوتاه دربارهٔ احساس روز — در تقویمت دیده می‌شود.",
+  "dayNotePlaceholder": "چه چیزی امروز را ارزش به‌یادماندن کرد؟",
+  "dayNoteLabel": "یادداشت روز",
+
+  "statsTitle": "آمار و ویدیوها",
+  "statsClipsLabel": "کلیپ‌ها",
+  "statsDurationLabel": "مدت",
+  "statsStreakLabel": "پیوستگی",
+  "statsClipCount": "{count, plural, =0{کلیپی نیست} =1{1 کلیپ} other{{count} کلیپ}}",
+  "@statsClipCount": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "statsDuration": "{seconds, plural, =0{0ث} =1{1ث} other{{seconds}ث}}",
+  "@statsDuration": {
+    "placeholders": { "seconds": { "type": "int" } }
+  },
+  "statsRecentVideos": "ویدیوهای اخیر",
+  "statsEmpty": "چند ثانیه ضبط کن و ویدیوهایت اینجا ظاهر می‌شوند.",
+
+  "recordTitle": "روزت را ضبط کن",
+  "recordHold": "نگه دار تا ضبط شود",
+  "recordHint": "حداقل {min}ث · حداکثر {max}ث",
+  "@recordHint": {
+    "placeholders": { "min": { "type": "int" }, "max": { "type": "int" } }
+  },
+  "recordDeviceOnly": "ضبط از دوربین دستگاه استفاده می‌کند و روی اندروید در دسترس است.",
+  "recordPermissionDenied": "برای ضبط به دسترسی دوربین و میکروفون نیاز است.",
+  "recordGrantPermission": "دسترسی بده",
+  "recordTooShort": "کمی بیشتر نگه دار — حداقل {min}ث.",
+  "@recordTooShort": {
+    "placeholders": { "min": { "type": "int" } }
+  },
+  "recordCameraError": "دوربین راه‌اندازی نشد.",
+
+  "previewTitle": "ثانیهٔ تو",
+  "previewSaved": "در دفترچه ذخیره شد.",
+
+  "compileFailed": "ترکیب ناموفق بود. لطفاً دوباره تلاش کن.",
+  "compilePercent": "در حال ادغام… {percent}%",
+  "@compilePercent": {
+    "placeholders": { "percent": { "type": "int" } }
+  },
+
+  "compileTitle": "دفترچه‌ات را ترکیب کن",
+  "compileDateRange": "بازهٔ تاریخ",
+  "compileClips": "{count, plural, =0{کلیپی نیست} =1{1 کلیپ} other{{count} کلیپ}} · ~{seconds}ث",
+  "@compileClips": {
+    "placeholders": { "count": { "type": "int" }, "seconds": { "type": "int" } }
+  },
+  "compileButton": "ترکیب ویدیو",
+  "compileMerging": "در حال ادغام کلیپ {current} از {total}…",
+  "@compileMerging": {
+    "placeholders": { "current": { "type": "int" }, "total": { "type": "int" } }
+  },
+  "compileNoClips": "کلیپی در این بازه نیست",
+
+  "playerShare": "اشتراک‌گذاری",
+  "playerSave": "ذخیره",
+  "playerSaved": "در گالری ذخیره شد.",
+  "playerSaveFailed": "در گالری ذخیره نشد.",
+  "playerShareUnavailable": "اشتراک‌گذاری هنوز در دسترس نیست.",
+  "playerEmpty": "فیلمی ترکیب کن تا اینجا تماشا کنی.",
+
+  "settingsTitle": "تنظیمات",
+  "settingsSectionPersonal": "شخصی‌سازی",
+  "settingsSectionNotifications": "اعلان‌ها",
+  "settingsSectionRecording": "ضبط",
+  "settingsSectionAbout": "درباره",
+  "settingsProfileStats": "{clips, plural, =0{هنوز کلیپی نیست} =1{1 کلیپ} other{{clips} کلیپ}} · {streak, plural, =0{پیوستگی نیست} =1{پیوستگی 1 روزه} other{پیوستگی {streak} روزه}}",
+  "@settingsProfileStats": {
+    "placeholders": {
+      "clips": { "type": "int" },
+      "streak": { "type": "int" }
+    }
+  },
+  "settingsReminderOff": "خاموش",
+  "settingsCustomColorsUnlocked": "باز شده",
+  "settingsFooter": "Dayly — زندگی‌ات، یک ثانیه یک بار.",
+  "settingsAppearance": "ظاهر",
+  "settingsLanguage": "زبان",
+  "settingsTheme": "تم",
+  "settingsThemeSystem": "سیستم",
+  "settingsThemeLight": "روشن",
+  "settingsThemeDark": "تاریک",
+  "settingsNavigationBarStyle": "سبک Crystal",
+  "settingsNavigationBarStyleHint": "ظاهر Crystal را تنظیم کن. فقط وقتی Crystal انتخاب شده اعمال می‌شود.",
+  "settingsNavigationBarType": "نوار پیمایش",
+  "settingsNavigationBarTypeHint": "Crystal یا نوار منحنی با دکمهٔ شناور وسط را انتخاب کن.",
+  "settingsNavTypeCrystal": "Crystal",
+  "settingsNavTypeCurved": "منحنی",
+  "settingsNavigationBarPreview": "پیش‌نمایش",
+  "settingsNavigationBarPreviewHint": "برای امتحان نوار، روی آیکون‌ها بزن.",
+  "settingsNavStyleBlur": "نوار پیمایش مات",
+  "settingsNavStyleFrosted": "نوار پیمایش یخی",
+  "settingsNavStyleFloating": "نوار پیمایش شناور",
+  "settingsNavStyleRounded": "نوار پیمایش گرد",
+  "settingsNavStyleModern": "نوار پیمایش مدرن",
+  "settingsUiLibrary": "کتابخانه UI",
+  "settingsUiLibraryHint": "کتابخانه کامپوننت را زنده عوض کن — برای تست سیستم‌های طراحی.",
+  "settingsReminders": "یادآورها",
+  "settingsDailyReminder": "یادآور روزانه",
+  "settingsReminderTime": "زمان یادآور",
+  "settingsReminderCustom": "سفارشی",
+  "settingsReminderPickTime": "زمان یادآور را انتخاب کنید",
+  "settingsReminderHour": "ساعت",
+  "settingsReminderMinute": "دقیقه",
+  "settingsCapture": "ضبط",
+  "settingsDefaultDuration": "مدت پیش‌فرض کلیپ",
+  "settingsSaveToGallery": "ذخیره ویدیوی ترکیب‌شده در گالری",
+  "settingsSeconds": "{count}ث",
+  "@settingsSeconds": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "settingsAbout": "درباره",
+  "settingsConnectWithDev": "ارتباط با توسعه‌دهنده",
+  "settingsConnectWithDevHint": "گیت‌هاب، اینستاگرام، تلگرام و ایمیل",
+  "settingsConnectWithDevIntro": "سلام بگویید — بازخورد، ایده و گزارش باگ همیشه خوش‌آمد است.",
+  "settingsPrivacy": "حریم خصوصی",
+  "settingsPrivacyHint": "Dayly چگونه داده‌های شما را روی این دستگاه نگه می‌دارد",
+  "settingsPrivacyIntroTitle": "دفترچه مال شماست",
+  "settingsPrivacyIntroBody": "Dayly یک دفترچه ویدیویی شخصی با اولویت حریم خصوصی است. حساب کاربری، همگام‌سازی ابری و تبلیغات ندارد. هر چه ضبط می‌کنید روی گوشی شما می‌ماند مگر اینکه صادر کنید.",
+  "settingsPrivacyDataTitle": "چه چیزی ذخیره می‌شود",
+  "settingsPrivacyDataBody": "کلیپ‌ها، بندانگشتی‌ها، فیلم‌های جمع‌شده، یادداشت روزانه و تنظیمات به‌صورت محلی در حافظه خصوصی برنامه ذخیره می‌شوند. عکس‌های پس‌زمینه سفارشی در پوشه اسناد برنامه کپی می‌شوند. چیزی به سرور ما ارسال نمی‌شود.",
+  "settingsPrivacyPermissionsTitle": "مجوزها",
+  "settingsPrivacyPermissionsBody": "دوربین و میکروفون فقط هنگام ضبط درخواست می‌شوند. حافظه اگر ذخیره در گالری را فعال کنید استفاده می‌شود. اعلان‌ها اختیاری و فقط برای یادآور روزانه است. گالری فقط برای انتخاب عکس پس‌زمینه.",
+  "settingsPrivacyThirdPartyTitle": "کتابخانه‌های شخص ثالث",
+  "settingsPrivacyThirdPartyBody": "Dayly از بسته‌های متن‌باز (Flutter، ffmpeg و دیگران) استفاده می‌کند که فقط روی دستگاه شما اجرا می‌شوند. محتوای دفترچه را دریافت نمی‌کنند. فهرست کامل در «متن‌باز و سپاس» در تنظیمات.",
+  "settingsPrivacyYourControlTitle": "کنترل شما",
+  "settingsPrivacyYourControlBody": "می‌توانید کلیپ‌ها را حذف کنید، همه ضبط‌ها را پاک کنید یا تنظیمات را بازنشانی کنید. حذف برنامه همه داده‌های محلی را از دستگاه برمی‌دارد.",
+  "settingsPrivacyFooter": "آخرین به‌روزرسانی: ژوئیه ۲۰۲۶ · Dayly v1.0",
+  "settingsAcknowledgements": "متن‌باز و سپاس",
+  "settingsAcknowledgementsHint": "پشته، وابستگی‌ها و قدردانی",
+  "settingsAcknowledgementsStackTitle": "ساخته‌شده با متن‌باز",
+  "settingsAcknowledgementsIntro": "Dayly با Flutter و اکوسیستم شگفت‌انگیز بسته‌های جامعه ساخته شده. از همه نویسندگان و نگهدارندگان سپاسگزاریم.",
+  "settingsAcknowledgementsVersion": "Dayly {version} (ساخت {build})",
+  "settingsAcknowledgementsThanks": "از جامعه متن‌باز سپاسگزاریم — Dayly بدون شما وجود نداشت.",
+  "settingsAckCategoryFramework": "فریم‌ورک",
+  "settingsAckCategoryUi": "رابط و تایپوگرافی",
+  "settingsAckCategoryState": "وضعیت و مسیریابی",
+  "settingsAckCategoryMedia": "ویدیو و رسانه",
+  "settingsAckCategoryStorage": "ذخیره‌سازی و صادرات",
+  "settingsAckCategoryNotifications": "اعلان‌ها",
+  "settingsAckCategoryUtilities": "ابزارها",
+  "settingsCustomColors": "رنگ‌های سفارشی",
+  "settingsCustomColorsHint": "جایزهٔ مخفی — رنگ تأکید، رنگ‌ها و عکس پس‌زمینه را تنظیم کن.",
+  "settingsCustomColorsLightHint": "در حال ویرایش رنگ‌های تم روشن. برای سفارشی‌سازی رنگ‌های تاریک به تم تاریک برو.",
+  "settingsCustomColorsDarkHint": "در حال ویرایش رنگ‌های تم تاریک. برای سفارشی‌سازی رنگ‌های روشن به تم روشن برو.",
+  "settingsAccentColor": "تأکید",
+  "settingsBackgroundColor": "پس‌زمینه",
+  "settingsBackgroundImage": "عکس پس‌زمینه",
+  "settingsBackgroundImageHint": "برای این تم یک عکس انتخاب کنید. یک لایه ملایم خوانایی متن را حفظ می‌کند.",
+  "settingsChooseBackgroundImage": "انتخاب عکس",
+  "settingsRemoveBackgroundImage": "حذف عکس",
+  "settingsAppFont": "فونت برنامه",
+  "settingsAppFontHint": "فارسی به‌صورت خودکار از Vazirmatn استفاده می‌کند. فونت همه زبان‌ها را اینجا تغییر دهید.",
+  "settingsFontAuto": "خودکار",
+  "settingsFontClassic": "کلاسیک",
+  "settingsFontVazir": "Vazirmatn (فارسی)",
+  "settingsFontPoppins": "Poppins",
+  "settingsFontNunito": "Nunito",
+  "settingsFontLora": "Lora",
+  "settingsFontSpaceGrotesk": "Space Grotesk",
+  "settingsBoxColor": "جعبه",
+  "settingsResetColors": "بازنشانی به پیش‌فرض",
+  "settingsSectionReset": "بازنشانی",
+  "settingsResetAll": "بازنشانی همه تنظیمات",
+  "settingsResetAllHint": "همه ترجیحات را به پیش‌فرض کارخانه برگردان.",
+  "settingsResetAllDetails": "تم، زبان، سبک نوار پیمایش، کتابخانه UI، یادآورها، گزینه‌های ضبط و رنگ‌های سفارشی بازنشانی می‌شوند. کلیپ‌های ضبط‌شده حذف نمی‌شوند.",
+  "settingsResetAllButton": "بازنشانی همه تنظیمات",
+  "settingsResetClips": "حذف همه کلیپ‌ها",
+  "settingsResetClipsHint": "هر ثانیه ضبط‌شده را برای همیشه از این دستگاه حذف کن.",
+  "settingsResetClipsDetails": "{count, plural, =0{کلیپی برای حذف نیست.} =1{1 کلیپ روی این دستگاه ذخیره داری.} other{{count} کلیپ روی این دستگاه ذخیره داری.}}",
+  "@settingsResetClipsDetails": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "settingsResetClipsConfirmTitle": "همه کلیپ‌ها حذف شوند؟",
+  "settingsResetClipsConfirmBody": "این کار قابل بازگشت نیست. هر کلیپ، تصویر بندانگشتی و ویدیوی ترکیب‌شده برای همیشه حذف می‌شود.",
+  "settingsResetClipsButton": "حذف همه کلیپ‌ها",
+
+  "aboutDevTitle": "درباره توسعه‌دهنده",
+  "aboutDevSubtitle": "چه کسی Dayly را ساخت",
+  "aboutDevName": "Danix",
+  "aboutDevRole": "توسعه‌دهنده و طراح",
+  "aboutDevBio": "Dayly به‌عنوان یک آزمایش کوچک شروع شد: اگر بتوانی کل یک سال را در چند دقیقه فیلم نگه داری چه؟ این اپ را ساختم تا آن مراسم گرم، سریع و کمی جادویی باشد.",
+  "aboutDevStackTitle": "ساخته‌شده با",
+  "aboutDevStackBody": "Flutter · Riverpod · دوربین دستگاه و خط لوله ffmpeg · مقدار زیادی قهوه.",
+  "aboutDevVersion": "نسخه {version}",
+  "@aboutDevVersion": {
+    "placeholders": { "version": { "type": "String" } }
+  },
+  "aboutDevVersionBuild": "نسخه {version} ({build})",
+  "@aboutDevVersionBuild": {
+    "placeholders": {
+      "version": { "type": "String" },
+      "build": { "type": "String" }
+    }
+  },
+  "aboutDevEasterEggUnlocked": "پیداش کردی! رنگ‌های سفارشی و عکس پس‌زمینه الان باز شده‌اند.",
+
+  "commonSave": "ذخیره",
+  "commonRetake": "ضبط مجدد",
+  "commonCancel": "لغو",
+  "commonDelete": "حذف",
+  "commonBack": "بازگشت",
+  "commonRecord": "ضبط"
+}

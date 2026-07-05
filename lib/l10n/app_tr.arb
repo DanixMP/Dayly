@@ -1,0 +1,271 @@
+{
+  "@@locale": "tr",
+
+  "appTitle": "Dayly",
+  "appTagline": "Hayatın, her seferinde bir saniye.",
+
+  "onboardingSkip": "Atla",
+  "onboardingNext": "İleri",
+  "onboardingGetStarted": "Başla",
+  "onboardingSwipe": "Keşfetmek için kaydır",
+  "onboardingWelcomeTitle": "Dayly'ye Hoş Geldin",
+  "onboardingWelcomeBody": "Sıradan günleri gerçekten izleyebileceğin bir filme dönüştüren sıcak, bir saniyelik bir ritüel.",
+  "onboardingRecordTitle": "Bir dürüst saniye yakala",
+  "onboardingRecordBody": "Bugün'ü aç, kayda bas ve tek bir gerçek an kaydet — düzenleme yok, baskı yok.",
+  "onboardingCalendarTitle": "Takvimine göz at",
+  "onboardingCalendarBody": "Klipleri oynatmak, not bırakmak ve serini büyütmek için bir güne dokun.",
+  "onboardingRemindersTitle": "Ritimde kal",
+  "onboardingRemindersBody": "Saniyeni unutmamak için Ayarlar'dan günlük hatırlatıcıları aç.",
+
+  "tabNavigationLabel": "Ana gezinme",
+  "tabCalendar": "Takvim",
+  "tabStats": "İstatistikler",
+  "tabToday": "Bugün",
+  "tabCompile": "Birleştir",
+  "tabSettings": "Ayarlar",
+
+  "diaryTitle": "Dayly",
+  "diaryRecentSection": "Son",
+  "diaryStreak": "Seri: {count, plural, =0{henüz gün yok} =1{1 gün} other{{count} gün}} 🔥",
+  "@diaryStreak": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "diaryTodayTile": "bugün",
+  "diaryEmpty": "Henüz an yok. İlk saniyeni kaydet.",
+  "diaryDayRecorded": "Kaydedildi",
+  "diaryDayNotRecorded": "Kayıt yok",
+  "diaryDayNotRecordedHint": "Bu gün için henüz bir saniye kaydetmedin.",
+  "diaryDayClipCount": "{count, plural, =1{1 kayıt} other{{count} kayıt}}",
+  "@diaryDayClipCount": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "diaryTapToPlay": "Oynatmak için dokun",
+  "diaryRecordedAt": "{time} · {seconds}sn'de kaydedildi",
+  "@diaryRecordedAt": {
+    "placeholders": {
+      "time": { "type": "String" },
+      "seconds": { "type": "int" }
+    }
+  },
+
+  "todayTitle": "Bugün",
+  "todayRecordedTitle": "Bugünün saniyesi kaydedildi",
+  "todayRecordedBody": "Bugün için hazırsın. Ritmi sürdürmek için yarın tekrar gel.",
+  "todayUnrecordedTitle": "Bugünün saniyesini kaydet",
+  "todayUnrecordedBody": "Gün geçmeden bir dürüst saniye yakala.",
+  "todayClipSummary": "{time} · {seconds}sn'de kaydedildi",
+  "@todayClipSummary": {
+    "placeholders": {
+      "time": { "type": "String" },
+      "seconds": { "type": "int" }
+    }
+  },
+  "todayRecordCta": "Bugünü kaydet",
+  "todayRecordAgainCta": "Bir saniye daha kaydet",
+  "dayNoteTitle": "Bugün için bir not bırak",
+  "dayNoteHint": "Günün nasıl geçtiğine dair kısa bir satır — takviminde görünür.",
+  "dayNotePlaceholder": "Bugünü hatırlamaya değer kılan ne?",
+  "dayNoteLabel": "Gün notu",
+
+  "statsTitle": "İstatistikler ve videolar",
+  "statsClipsLabel": "Klipler",
+  "statsDurationLabel": "Süre",
+  "statsStreakLabel": "Seri",
+  "statsClipCount": "{count, plural, =0{Klips yok} =1{1 klip} other{{count} klip}}",
+  "@statsClipCount": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "statsDuration": "{seconds, plural, =0{0sn} =1{1sn} other{{seconds}sn}}",
+  "@statsDuration": {
+    "placeholders": { "seconds": { "type": "int" } }
+  },
+  "statsRecentVideos": "Son videolar",
+  "statsEmpty": "Birkaç saniye kaydet, videoların burada görünecek.",
+
+  "recordTitle": "Gününü kaydet",
+  "recordHold": "kaydetmek için basılı tut",
+  "recordHint": "en az {min}sn · en çok {max}sn",
+  "@recordHint": {
+    "placeholders": { "min": { "type": "int" }, "max": { "type": "int" } }
+  },
+  "recordDeviceOnly": "Kayıt cihaz kamerasını kullanır ve Android'de kullanılabilir.",
+  "recordPermissionDenied": "Kayıt için kamera ve mikrofon erişimi gerekli.",
+  "recordGrantPermission": "Erişim ver",
+  "recordTooShort": "Biraz daha basılı tut — en az {min}sn.",
+  "@recordTooShort": {
+    "placeholders": { "min": { "type": "int" } }
+  },
+  "recordCameraError": "Kamera başlatılamadı.",
+
+  "previewTitle": "Saniyen",
+  "previewSaved": "Günlüğüne kaydedildi.",
+
+  "compileFailed": "Birleştirme başarısız. Lütfen tekrar dene.",
+  "compilePercent": "Birleştiriliyor… %{percent}",
+  "@compilePercent": {
+    "placeholders": { "percent": { "type": "int" } }
+  },
+
+  "compileTitle": "Günlüğünü birleştir",
+  "compileDateRange": "Tarih aralığı",
+  "compileClips": "{count, plural, =0{Klips yok} =1{1 klip} other{{count} klip}} · ~{seconds}sn",
+  "@compileClips": {
+    "placeholders": { "count": { "type": "int" }, "seconds": { "type": "int" } }
+  },
+  "compileButton": "Video birleştir",
+  "compileMerging": "Klip {current}/{total} birleştiriliyor…",
+  "@compileMerging": {
+    "placeholders": { "current": { "type": "int" }, "total": { "type": "int" } }
+  },
+  "compileNoClips": "Aralıkta klip yok",
+
+  "playerShare": "Paylaş",
+  "playerSave": "Kaydet",
+  "playerSaved": "Galeriye kaydedildi.",
+  "playerSaveFailed": "Galeriye kaydedilemedi.",
+  "playerShareUnavailable": "Paylaşım henüz kullanılamıyor.",
+  "playerEmpty": "İzlemek için bir film birleştir.",
+
+  "settingsTitle": "Ayarlar",
+  "settingsSectionPersonal": "Kişiselleştirme",
+  "settingsSectionNotifications": "Bildirimler",
+  "settingsSectionRecording": "Kayıt",
+  "settingsSectionAbout": "Hakkında",
+  "settingsProfileStats": "{clips, plural, =0{Henüz klip yok} =1{1 klip} other{{clips} klip}} · {streak, plural, =0{seri yok} =1{1 günlük seri} other{{streak} günlük seri}}",
+  "@settingsProfileStats": {
+    "placeholders": {
+      "clips": { "type": "int" },
+      "streak": { "type": "int" }
+    }
+  },
+  "settingsReminderOff": "Kapalı",
+  "settingsCustomColorsUnlocked": "Açıldı",
+  "settingsFooter": "Dayly — hayatın, her seferinde bir saniye.",
+  "settingsAppearance": "Görünüm",
+  "settingsLanguage": "Dil",
+  "settingsTheme": "Tema",
+  "settingsThemeSystem": "Sistem",
+  "settingsThemeLight": "Açık",
+  "settingsThemeDark": "Koyu",
+  "settingsNavigationBarStyle": "Crystal stili",
+  "settingsNavigationBarStyleHint": "Crystal görünümünü ince ayarla. Yalnızca Crystal seçiliyken geçerlidir.",
+  "settingsNavigationBarType": "Gezinme çubuğu",
+  "settingsNavigationBarTypeHint": "Crystal veya ortada yüzen düğmeli kavisli çubuğu seç.",
+  "settingsNavTypeCrystal": "Crystal",
+  "settingsNavTypeCurved": "Kavisli",
+  "settingsNavigationBarPreview": "Önizleme",
+  "settingsNavigationBarPreviewHint": "Çubuğu denemek için simgelere dokun.",
+  "settingsNavStyleBlur": "Bulanık gezinme çubuğu",
+  "settingsNavStyleFrosted": "Buzlu gezinme çubuğu",
+  "settingsNavStyleFloating": "Yüzen gezinme çubuğu",
+  "settingsNavStyleRounded": "Yuvarlak gezinme çubuğu",
+  "settingsNavStyleModern": "Modern gezinme çubuğu",
+  "settingsUiLibrary": "UI kütüphanesi",
+  "settingsUiLibraryHint": "Bileşen kütüphanesini canlı değiştir — tasarım sistemlerini test etmek için.",
+  "settingsReminders": "Hatırlatıcılar",
+  "settingsDailyReminder": "Günlük hatırlatıcı",
+  "settingsReminderTime": "Hatırlatıcı saati",
+  "settingsReminderCustom": "Özel",
+  "settingsReminderPickTime": "Hatırlatıcı saati seç",
+  "settingsReminderHour": "Saat",
+  "settingsReminderMinute": "Dakika",
+  "settingsCapture": "Kayıt",
+  "settingsDefaultDuration": "Varsayılan klip süresi",
+  "settingsSaveToGallery": "Birleştirilmiş videoyu galeriye kaydet",
+  "settingsSeconds": "{count}sn",
+  "@settingsSeconds": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "settingsAbout": "Hakkında",
+  "settingsConnectWithDev": "Geliştiriciyle iletişim",
+  "settingsConnectWithDevHint": "GitHub, Instagram, Telegram ve e-posta",
+  "settingsConnectWithDevIntro": "Merhaba deyin — geri bildirim, fikirler ve hata raporları her zaman hoş karşılanır.",
+  "settingsPrivacy": "Gizlilik",
+  "settingsPrivacyHint": "Dayly bu cihazdaki verilerinizi nasıl işler",
+  "settingsPrivacyIntroTitle": "Günlüğünüz size ait",
+  "settingsPrivacyIntroBody": "Dayly gizlilik odaklı kişisel bir video günlüğüdür. Hesap, bulut senkronizasyonu veya reklam yoktur. Kaydettiğiniz her şey, dışa aktarmadıkça telefonunuzda kalır.",
+  "settingsPrivacyDataTitle": "Ne saklıyoruz",
+  "settingsPrivacyDataBody": "Klipleriniz, küçük resimler, derlenmiş filmler, gün notları ve tercihler uygulamanın özel depolamasında yerel olarak saklanır. Özel arka plan fotoğrafları uygulama belgelerine kopyalanır. Hiçbir şey sunucularımıza yüklenmez.",
+  "settingsPrivacyPermissionsTitle": "İzinler",
+  "settingsPrivacyPermissionsBody": "Kamera ve mikrofon yalnızca kayıt sırasında istenir. Galeriye kaydetme açıksa depolama kullanılır. Bildirimler isteğe bağlıdır ve yalnızca günlük hatırlatıcı içindir. Galeri yalnızca özel arka plan seçerken kullanılır.",
+  "settingsPrivacyThirdPartyTitle": "Üçüncü taraf kütüphaneler",
+  "settingsPrivacyThirdPartyBody": "Dayly yalnızca cihazınızda çalışan açık kaynak paketler (Flutter, ffmpeg vb.) kullanır. Günlük içeriğinizi almazlar. Tam liste için Ayarlar'daki Açık kaynak ve teşekkürler bölümüne bakın.",
+  "settingsPrivacyYourControlTitle": "Kontrolünüz",
+  "settingsPrivacyYourControlBody": "Klipleri silebilir, tüm kayıtları temizleyebilir veya ayarları sıfırlayabilirsiniz. Uygulamayı kaldırmak tüm yerel günlük verilerini siler.",
+  "settingsPrivacyFooter": "Son güncelleme: Temmuz 2026 · Dayly v1.0",
+  "settingsAcknowledgements": "Açık kaynak ve teşekkürler",
+  "settingsAcknowledgementsHint": "Yığın, bağımlılıklar ve minnettarlık",
+  "settingsAcknowledgementsStackTitle": "Açık kaynakla yapıldı",
+  "settingsAcknowledgementsIntro": "Dayly, Flutter ve harika topluluk paketleri ekosistemiyle yapıldı. Aşağıdaki her yazara ve maintainer'a teşekkür ederiz.",
+  "settingsAcknowledgementsVersion": "Dayly {version} (derleme {build})",
+  "settingsAcknowledgementsThanks": "Açık kaynak topluluğuna teşekkürler — Dayly siz olmasaydınız var olamazdı.",
+  "settingsAckCategoryFramework": "Çatı",
+  "settingsAckCategoryUi": "Arayüz ve tipografi",
+  "settingsAckCategoryState": "Durum ve gezinme",
+  "settingsAckCategoryMedia": "Video ve medya",
+  "settingsAckCategoryStorage": "Depolama ve dışa aktarma",
+  "settingsAckCategoryNotifications": "Bildirimler",
+  "settingsAckCategoryUtilities": "Yardımcılar",
+  "settingsCustomColors": "Özel renkler",
+  "settingsCustomColorsHint": "Açılan gizli özellik — vurgu, renkler ve arka plan fotoğrafı.",
+  "settingsCustomColorsLightHint": "Açık tema renkleri düzenleniyor. Koyu renkleri ayrı özelleştirmek için koyu temaya geç.",
+  "settingsCustomColorsDarkHint": "Koyu tema renkleri düzenleniyor. Açık renkleri ayrı özelleştirmek için açık temaya geç.",
+  "settingsAccentColor": "Vurgu",
+  "settingsBackgroundColor": "Arka plan",
+  "settingsBackgroundImage": "Arka plan fotoğrafı",
+  "settingsBackgroundImageHint": "Bu tema için bir fotoğraf seçin. Hafif bir ton metni okunaklı tutar.",
+  "settingsChooseBackgroundImage": "Fotoğraf seç",
+  "settingsRemoveBackgroundImage": "Fotoğrafı kaldır",
+  "settingsAppFont": "Uygulama yazı tipi",
+  "settingsAppFontHint": "Farsça otomatik olarak Vazirmatn kullanır. Tüm diller için yazı tipini buradan değiştirin.",
+  "settingsFontAuto": "Otomatik",
+  "settingsFontClassic": "Klasik",
+  "settingsFontVazir": "Vazirmatn (Farsça)",
+  "settingsFontPoppins": "Poppins",
+  "settingsFontNunito": "Nunito",
+  "settingsFontLora": "Lora",
+  "settingsFontSpaceGrotesk": "Space Grotesk",
+  "settingsBoxColor": "Kutu",
+  "settingsResetColors": "Varsayılanlara sıfırla",
+  "settingsSectionReset": "Sıfırlama",
+  "settingsResetAll": "Tüm ayarları sıfırla",
+  "settingsResetAllHint": "Tüm tercihleri fabrika varsayılanlarına döndür.",
+  "settingsResetAllDetails": "Tema, dil, gezinme çubuğu stili, UI kütüphanesi, hatırlatıcılar, kayıt seçenekleri ve özel renkler sıfırlanır. Kaydedilen klipler silinmez.",
+  "settingsResetAllButton": "Tüm ayarları sıfırla",
+  "settingsResetClips": "Tüm klipleri sil",
+  "settingsResetClipsHint": "Bu cihazdaki kaydedilen her saniyeyi kalıcı olarak kaldır.",
+  "settingsResetClipsDetails": "{count, plural, =0{Silinecek klip yok.} =1{Bu cihazda 1 klip kayıtlı.} other{Bu cihazda {count} klip kayıtlı.}}",
+  "@settingsResetClipsDetails": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "settingsResetClipsConfirmTitle": "Tüm klipler silinsin mi?",
+  "settingsResetClipsConfirmBody": "Bu geri alınamaz. Kaydedilen her klip, küçük resim ve birleştirilmiş video kalıcı olarak kaldırılacak.",
+  "settingsResetClipsButton": "Tüm klipleri sil",
+
+  "aboutDevTitle": "Geliştirici hakkında",
+  "aboutDevSubtitle": "Dayly'yi kim yaptı",
+  "aboutDevName": "Danix",
+  "aboutDevRole": "Geliştirici ve tasarımcı",
+  "aboutDevBio": "Dayly küçük bir deney olarak başladı: Bir yılın tamamını birkaç dakikalık filmde tutabilir miydin? Bu uygulamayı o ritüeli sıcak, hızlı ve biraz sihirli hissettirmek için yaptım.",
+  "aboutDevStackTitle": "Kullanılan teknolojiler",
+  "aboutDevStackBody": "Flutter · Riverpod · cihaz içi kamera ve ffmpeg pipeline · bolca kahve.",
+  "aboutDevVersion": "Sürüm {version}",
+  "@aboutDevVersion": {
+    "placeholders": { "version": { "type": "String" } }
+  },
+  "aboutDevVersionBuild": "Sürüm {version} ({build})",
+  "@aboutDevVersionBuild": {
+    "placeholders": {
+      "version": { "type": "String" },
+      "build": { "type": "String" }
+    }
+  },
+  "aboutDevEasterEggUnlocked": "Buldun! Özel renkler ve arka plan fotoğrafları artık açık.",
+
+  "commonSave": "Kaydet",
+  "commonRetake": "Yeniden çek",
+  "commonCancel": "İptal",
+  "commonDelete": "Sil",
+  "commonBack": "Geri",
+  "commonRecord": "Kaydet"
+}

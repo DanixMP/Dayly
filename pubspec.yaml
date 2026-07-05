@@ -1,0 +1,95 @@
+name: dayly
+description: "Dayly — a one-second personal video diary."
+publish_to: 'none'
+version: 1.11.27+1
+
+environment:
+  sdk: ^3.10.8
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # --- App shell (cross-platform, runnable now) ---
+  cupertino_icons: ^1.0.8
+
+  # UI kit #1 (swappable). See lib/ui/ for the abstraction layer.
+  shadcn_flutter: ^0.0.52
+  liquid_glass_renderer: ^0.2.0-dev.4
+  flutter_neumorphic_plus: ^3.5.0
+  nes_ui: ^0.30.0
+  chicago: ^0.4.3-dev
+  neubrutalism_ui: ^2.0.2
+
+  # State & navigation
+  flutter_riverpod: ^3.3.2
+  go_router: ^17.3.0
+  crystal_navigation_bar: ^1.1.0
+  curved_navigation_bar: ^1.0.6
+
+  # Theming / typography (capped below 7 for nes_ui compatibility)
+  google_fonts: '>=6.2.1 <7.0.0'
+
+  # Settings persistence (locale, theme, active UI kit)
+  shared_preferences: ^2.5.5
+  package_info_plus: ^10.2.0
+
+  # i18n / utilities
+  intl: any
+  uuid: ^4.4.0
+
+  # --- Phase 2: on-device pipeline (Android/iOS) ---
+  # Video capture & playback
+  camera: ^0.12.0
+  video_player: ^2.11.1
+  chewie: ^1.14.1
+  # Merge + thumbnail extraction (classic ffmpeg_kit was retired; this is the
+  # maintained continuation). Thumbnails are pulled with ffmpeg too, so the
+  # Dart-3-incompatible `video_thumbnail` package is intentionally not used.
+  ffmpeg_kit_flutter_new: ^4.2.1
+  # Local database (community fork — classic `isar` caps at Dart <3.0.0).
+  isar_community: ^3.3.2
+  isar_community_flutter_libs: ^3.3.2
+  path_provider: ^2.1.6
+  # Export & permissions
+  saver_gallery: ^4.1.2
+  permission_handler: ^12.0.3
+  # Daily reminder
+  flutter_local_notifications: ^22.0.1
+  timezone: ^0.11.0
+  flutter_timezone: ^4.1.1
+  image_picker: ^1.1.2
+  url_launcher: ^6.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  build_runner: ^2.4.13
+  isar_community_generator: ^3.3.2
+  flutter_launcher_icons: ^0.14.4
+
+flutter_launcher_icons:
+  android: true
+  image_path: assets/logo.png
+  adaptive_icon_background: "#0E0E0E"
+  adaptive_icon_foreground: assets/logo.png
+  windows:
+    generate: true
+    image_path: assets/logo.png
+    icon_size: 256
+
+dependency_overrides:
+  # path_provider_foundation 2.6.0 pulls `objective_c`, whose native build hook
+  # breaks build_runner's bootstrap on Dart 3.10 ("use `dart build`"). Dayly
+  # targets Android + Windows, so this Apple-only path_provider impl is never
+  # built — pin it just below the objective_c migration to keep codegen working.
+  path_provider_foundation: 2.4.1
+
+flutter:
+  uses-material-design: true
+  generate: true # enable gen-l10n (ARB -> AppLocalizations)
+  assets:
+    - assets/logo.png
