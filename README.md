@@ -166,3 +166,4 @@ Good first areas:
 ## License
 
 Dayly is open source under the [MIT License](LICENSE).
+Feel Free to Do any changes you want. Just let me know :)
