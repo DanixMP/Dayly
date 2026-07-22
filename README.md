@@ -163,6 +163,10 @@ Good first areas:
 - Android device testing.
 - Documentation and screenshots.
 
+## Issues
+
+- Need a UI tweak for glassmorphism and NesUI and Chicago UI
+
 ## License
 
 Dayly is open source under the [MIT License](LICENSE).
