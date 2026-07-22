@@ -166,6 +166,9 @@ Good first areas:
 ## Issues
 
 - Need a UI tweak for glassmorphism and NesUI and Chicago UI
+- The relibility is still under test and its quite fine nearly a month
+- The Notification in Samsung One UI 8.5 is Visible or resets after Phone restart
+- The UI colors need tweaking
 
 ## License
 
